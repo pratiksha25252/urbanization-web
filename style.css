@@ -1,0 +1,272 @@
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4682B4;
+    /* Set background color for the header */
+    padding: 20px 0;
+    /* Add padding to the top and bottom of the header */
+    text-align: center;
+    /* Center align the text */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Add box shadow for depth */
+}
+
+
+
+
+#about h2 {
+    font-size: 28px;
+    /* Set the font size for h2 */
+    font-family: Arial, sans-serif;
+    padding-top: 60px;
+}
+
+#about p {
+    padding-top: 20px;
+    font-size: 28px;
+    font-family: 'poppins';
+}
+
+#effects h2,
+#solutions h2,
+#resources h2 {
+    font-size: 28px;
+    /* Increase font size for section headings */
+}
+
+#effects p,
+#solutions p,
+#resources p {
+    font-size: 28px;
+    /* Increase font size for paragraphs */
+}
+
+#effects li,
+#solutions li,
+#resources li {
+    font-size: 28px;
+    /* Increase font size for paragraphs */
+}
+
+img {
+    width: 100vw;
+    height: 50vh;
+    padding: 50px;
+}
+
+header h1 {
+    font-size: 36px;
+    /* Increase font size for header heading */
+}
+
+nav ul li a {
+    font-size: 20px;
+    /* Increase font size for navigation links */
+}
+
+/* Additional CSS for increasing text size */
+#about h2 {
+    font-size: 32px;
+    /* Increase font size for section header */
+}
+
+#effects h2,
+#solutions h2,
+#resources h2 {
+    font-size: 32px;
+    /* Increase font size for section headers */
+}
+
+/* Additional CSS for increasing text size for paragraphs */
+#about p,
+#effects p,
+#solutions p,
+#resources p {
+    font-size: 28px;
+    /* Increase font size for paragraphs */
+}
+
+header {
+    background-color: #3e7fda;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #9da4af;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+
+#about {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero {
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+/* Additional CSS for using the Poppins font */
+html,
+body {
+    font-family: 'Poppins', sans-serif;
+    /* Specify Poppins as the default font */
+    margin: 0;
+    padding: 0;
+}
+
+/* Increase font size for header headings */
+header h1 {
+    font-size: 36px;
+    /* Increase font size for header heading */
+}
+
+nav ul li a {
+    font-size: 20px;
+    /* Increase font size for navigation links */
+}
+
+/* Additional CSS for increasing text size */
+#about h2 {
+    font-size: 32px;
+    /* Increase font size for section header */
+}
+
+#effects h2,
+#solutions h2,
+#resources h2 {
+    font-size: 32px;
+    /* Increase font size for section headers */
+}
+
+/* Additional CSS for increasing text size for paragraphs */
+#about p,
+#effects p,
+#solutions p,
+#resources p {
+    font-size: 28px;
+    /* Increase font size for paragraphs */
+}
+
+/* Additional CSS for using the Poppins font */
+html,
+body {
+    font-family: 'Poppins', sans-serif;
+    /* Specify Poppins as the default font */
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    /* Set background color for the body */
+    color: #333;
+    /* Set text color */
+}
+
+/* Style the header */
+header {
+    background-color: #4682B4;
+    /* Set background color for the header */
+    padding: 28px 0;
+    /* Add padding to the top and bottom of the header */
+    text-align: center;
+    /* Center align the text */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Add box shadow for depth */
+}
+
+header h1 {
+    font-size: 48px;
+    /* Increase font size for the main heading */
+    color: #fff;
+    /* Set text color for the main heading */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    /* Add text shadow for depth */
+    margin: 0;
+    /* Remove default margin */
+}
+
+/* Style the navigation */
+nav {
+    background-color: #fff;
+    /* Set background color for the navigation */
+    padding: 10px 0;
+    /* Add padding to the top and bottom of the navigation */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Add box shadow for depth */
+}
+
+nav ul {
+    list-style-type: none;
+    /* Remove default list style */
+    margin: 0;
+    /* Remove default margin */
+    padding: 0;
+    /* Remove default padding */
+    text-align: center;
+    /* Center align the navigation links */
+}
+
+nav ul li {
+    display: inline;
+    /* Display the list items inline */
+}
+
+nav ul li a {
+    text-decoration: none;
+    /* Remove default underline */
+    color: #333;
+    /* Set text color for the navigation links */
+    padding: 10px 20px;
+    /* Add padding to the navigation links */
+    transition: all 0.3s ease;
+    /* Add transition for smooth hover effect */
+}
+
+nav ul li a:hover {
+    background-color: #f0f0f0;
+    /* Change background color on hover */
+    border-radius: 5px;
+    /* Add border radius on hover */
+}
